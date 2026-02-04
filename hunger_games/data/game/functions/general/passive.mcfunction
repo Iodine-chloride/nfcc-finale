@@ -25,7 +25,7 @@ execute as @e[tag=creeper_tracker] at @s unless entity @a[scores={class=5},dista
 execute as @a[scores={class=6,health=..8,respawnable=1}] run tellraw @s [{"text":"你触发了烈焰人被动技能 - ","color":"yellow"},{"text":"涅槃","color":"green","bold":true},"！"]
 execute as @a[scores={class=6,health=..8,respawnable=1}] run tellraw @a ["[⚔] ", {"selector":"@s"},{"text":"释放了限定技——","color":"yellow"},{"text":"涅槃","color":"green","bold":true},{"text":"，并重获新生！","color":"yellow"}]
 execute as @a[scores={class=6,health=..8,respawnable=1}] run effect give @s regeneration 1 5 true
-execute as @a[scores={class=6,health=..8,respawnable=1}] at @s run playsound entity.illusioner.prepare_mirror master @a[distance=..4] ~ ~ ~ 1 1 
+execute as @a[scores={class=6,health=..8,respawnable=1}] at @s run playsound entity.illusioner.prepare_mirror master @a[distance=..4] ~ ~ ~ 1 1
 execute as @a[scores={class=6,health=..8,respawnable=1}] at @s run particle minecraft:flame ~ ~1 ~ 0.25 1.75 0.25 0.01 100
 execute as @a[scores={class=6,health=..8,respawnable=1}] at @s run particle minecraft:soul ~ ~ ~ 1 1 1 0.01 33
 execute as @a[scores={class=6,health=..8,respawnable=1}] at @s run scoreboard players set @s respawnable 0

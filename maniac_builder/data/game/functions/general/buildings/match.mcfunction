@@ -1,5 +1,5 @@
 # Easy
-execute store success score @a[tag=spot_1] round_blocks_mb as @e[tag=chosen_building,tag=easy,limit=1] at @s run execute if blocks ~1 ~ ~1 ~5 ~4 ~5 2061 95 986 all 
+execute store success score @a[tag=spot_1] round_blocks_mb as @e[tag=chosen_building,tag=easy,limit=1] at @s run execute if blocks ~1 ~ ~1 ~5 ~4 ~5 2061 95 986 all
 execute store success score @a[tag=spot_2] round_blocks_mb as @e[tag=chosen_building,tag=easy,limit=1] at @s run execute if blocks ~1 ~ ~1 ~5 ~4 ~5 2036 95 1011 all
 execute store success score @a[tag=spot_3] round_blocks_mb as @e[tag=chosen_building,tag=easy,limit=1] at @s run execute if blocks ~1 ~ ~1 ~5 ~4 ~5 2011 95 1036 all
 execute store success score @a[tag=spot_4] round_blocks_mb as @e[tag=chosen_building,tag=easy,limit=1] at @s run execute if blocks ~1 ~ ~1 ~5 ~4 ~5 1986 95 1061 all

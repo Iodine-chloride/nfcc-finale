@@ -27,7 +27,7 @@ execute as @a[tag=!spec] at @s if entity @s[y=105,dy=10] run tp @s @e[limit=1,ta
 execute as @a[tag=!spec] at @s if blocks ~ ~-10 ~ ~ ~-1 ~ 2070 95 1053 all run tellraw @s [{"text":"[❌] "},{"text":"请不要试图离开个人比赛区域！","color":"red","bold":true}]
 execute as @a[tag=!spec] at @s if blocks ~ ~-10 ~ ~ ~-1 ~ 2070 95 1053 all run tp @s @e[limit=1,tag=starting_spot_mb,sort=nearest]
 execute as @a[tag=!spec] at @s unless block ~ ~1 ~ #walls unless block ~ ~1 ~ #fences unless block ~ ~1 ~ air run tellraw @s [{"text":"[❌] "},{"text":"你似乎卡进了方块里...","color":"red","bold":true}]
-execute as @a[tag=!spec] at @s unless block ~ ~1 ~ #walls unless block ~ ~1 ~ #fences unless block ~ ~1 ~ air run tp @s ~ ~5 ~ 
+execute as @a[tag=!spec] at @s unless block ~ ~1 ~ #walls unless block ~ ~1 ~ #fences unless block ~ ~1 ~ air run tp @s ~ ~5 ~
 
 # Check if a game is over
 execute if score ROUND tick_elapsed matches 9 if score ROUND_TIME tick_elapsed matches -198 run function game:general/game_over
