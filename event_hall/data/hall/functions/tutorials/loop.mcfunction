@@ -22,7 +22,7 @@ execute as @a[limit=1,scores={tutorials=5}] run function hall:tutorials/show/sur
 execute as @a[limit=1,scores={tutorials=6}] run function hall:tutorials/show/journeys
 execute as @a[limit=1,scores={tutorials=7}] run function hall:tutorials/show/tnt_tags
 execute as @a[limit=1,scores={tutorials=8}] run function hall:tutorials/show/maniac_builders
-execute as @a[limit=1,scores={tutorials=9}] run function hall:tutorials/show/murder_mystery
+execute as @a[limit=1,scores={tutorials=9}] run function hall:tutorials/show/bingo
 execute as @a[limit=1,scores={tutorials=10}] run function hall:tutorials/show/miniwalls
 execute as @a[limit=1,scores={tutorials=11}] run function hall:tutorials/show/lava_dancers
 

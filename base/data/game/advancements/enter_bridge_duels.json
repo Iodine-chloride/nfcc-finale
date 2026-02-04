@@ -5,12 +5,12 @@
             "conditions": {
                 "entity": {
                     "type": "zombie",
-                    "nbt": "{Tags:[\"enter_game\",\"rainbow_rhythms\"]}"
+                    "nbt": "{Tags:[\"enter_game\",\"bridge_duels\"]}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "game:rewards/enter_rainbow_rhythms"
+        "function": "game:rewards/enter_bridge_duels"
     }
 }

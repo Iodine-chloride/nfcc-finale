@@ -1,9 +1,9 @@
-# datapack enable "file/rainbow_rhythms"
+# datapack enable "file/bridge_duels"
 # tp @a -1020.5 115 919.5
 # spawnpoint @a -1020 115 919
 # title @a title {"text":"你现在的大厅：","color":"yellow"}
 # title @a subtitle {"text":"Rainbow Rhythms","color":"green","bold":true}
-# advancement revoke @a only game:enter_rainbow_rhythms
+# advancement revoke @a only game:enter_bridge_duels
 # scoreboard players set @a ready 0
 
 # # Showing prompts
@@ -17,4 +17,4 @@
 # time set noon
 
 tellraw @s [{"text":"["},{"text":"❌","color":"red"},{"text":"]"},{"text":" 该游戏正在维护中，稍后回来！","color":"yellow","bold":true}]
-advancement revoke @a only game:enter_rainbow_rhythms
+advancement revoke @a only game:enter_bridge_duels

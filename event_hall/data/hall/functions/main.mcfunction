@@ -14,7 +14,7 @@ execute if score PLAYED_GAMES data matches ..5 if score COUNT_DOWN tick_elapsed 
 execute if score PLAYED_GAMES data matches ..5 if score COUNT_DOWN tick_elapsed matches -640..-40 run function hall:vote/loop
 execute if score PLAYED_GAMES data matches ..5 if score COUNT_DOWN tick_elapsed matches -640..-40 run kill @e[type=item]
 execute if score PLAYED_GAMES data matches ..5 if score COUNT_DOWN tick_elapsed matches -641 run function hall:vote/end_voting
-execute if score PLAYED_GAMES data matches 6 if score COUNT_DOWN tick_elapsed matches 1 run datapack enable "file/rainbow_rhythms"
+execute if score PLAYED_GAMES data matches 6 if score COUNT_DOWN tick_elapsed matches 1 run datapack enable "file/bridge_duels"
 execute if score PLAYED_GAMES data matches 6 if score COUNT_DOWN tick_elapsed matches 0 run function hall:lobbies/enter_bridge_duels
 
 

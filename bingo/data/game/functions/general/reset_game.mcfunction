@@ -53,6 +53,6 @@ gamerule mobGriefing false
 
 # Event settings
 execute if score EVENT_STARTED data matches 1 run title @a title {"text":"Bingo!","color":"yellow"}
-execute if score EVENT_STARTED data matches 1 run title @a subtitle [{"text":"Games: ","color":"gold"},{"score":{"name":"PLAYED_MURDER_MYSTERY","objective":"data"},"color":"green"},{"text":"/1","color":"green"}]
-execute if score EVENT_STARTED data matches 1 if score PLAYED_MURDER_MYSTERY data matches 1.. run tellraw @a [{"text":"[⭐] "},{"text":"已完成游戏","color":"yellow"},{"text":"Bingo!","color":"green","bold":true},{"text":"的对决！10秒后将被传送回联赛大厅。","color":"yellow"}]
-execute if score EVENT_STARTED data matches 1 if score PLAYED_MURDER_MYSTERY data matches 1.. run schedule function game:general/return_hall 10s
+execute if score EVENT_STARTED data matches 1 run title @a subtitle [{"text":"Games: ","color":"gold"},{"score":{"name":"PLAYED_bingo","objective":"data"},"color":"green"},{"text":"/1","color":"green"}]
+execute if score EVENT_STARTED data matches 1 if score PLAYED_bingo data matches 1.. run tellraw @a [{"text":"[⭐] "},{"text":"已完成游戏","color":"yellow"},{"text":"Bingo!","color":"green","bold":true},{"text":"的对决！10秒后将被传送回联赛大厅。","color":"yellow"}]
+execute if score EVENT_STARTED data matches 1 if score PLAYED_bingo data matches 1.. run schedule function game:general/return_hall 10s

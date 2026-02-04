@@ -20,7 +20,7 @@ tellraw @a [{"text":"[⭐] "},{"text":"联赛已全部结束，结果将在10秒
 # NEED CHANGES #
 # datapack disable "file/casual_pvp"
 # bossbar set minecraft:casual_pvp players
-datapack disable "file/rainbow_rhythms"
+datapack disable "file/bridge_duels"
 stopsound @a master
 scoreboard objectives setdisplay sidebar
 schedule function hall:trophy/final 10s

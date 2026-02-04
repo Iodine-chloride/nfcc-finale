@@ -10,9 +10,9 @@ scoreboard players set COUNT_DOWN tick_elapsed 1234
 
 # Add one more game played
 scoreboard players add PLAYED_GAMES data 1
-datapack disable "file/sheep_hoarder"
+datapack disable "file/the_mountain"
 
-datapack disable "file/murder_mystery"
+bossbar set minecraft:the_mountain players
 bossbar set minecraft:welcome_event players @a
 
 function game:levels/levels_set

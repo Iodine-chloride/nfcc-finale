@@ -1,9 +1,9 @@
-datapack enable "file/murder_mystery"
+datapack enable "file/bingo"
 execute in multi:bingo run tp @a -17 110 33 facing -33 112 33
 execute in multi:bingo run spawnpoint @a -17 110 33
 title @a title {"text":"你现在的大厅：","color":"yellow"}
 title @a subtitle {"text":"Bingo Game","color":"green","bold":true}
-advancement revoke @a only game:enter_murder_mystery
+advancement revoke @a only game:enter_bingo
 scoreboard players set @a ready 0
 scoreboard players set @a fungus_stick 0
 
@@ -19,4 +19,4 @@ function game:levels/levels_reset
 time set noon
 
 # tellraw @s [{"text":"["},{"text":"❌","color":"red"},{"text":"]"},{"text":" 该游戏正在维护中，稍后回来！","color":"yellow","bold":true}]
-advancement revoke @a only game:enter_murder_mystery
+advancement revoke @a only game:enter_bingo

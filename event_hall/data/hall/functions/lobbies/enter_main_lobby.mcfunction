@@ -9,7 +9,7 @@ datapack disable "file/skywars"
 datapack disable "file/Quakecraft_ingame"
 datapack disable "file/Quakecraft_ready"
 datapack disable "file/maniac_builder"
-datapack disable "file/murder_mystery"
+datapack disable "file/bingo"
 datapack disable "file/battle_box"
 datapack disable "file/event_hall"
 

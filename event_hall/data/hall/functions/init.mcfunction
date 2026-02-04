@@ -7,7 +7,7 @@ scoreboard players set PLAYED_SURVIVAL_GAMES data 0
 scoreboard players set PLAYED_JOURNEYS data 0
 scoreboard players set PLAYED_TNT_TAGS data 0
 scoreboard players set PLAYED_MANIAC_BUILDERS data 0
-scoreboard players set PLAYED_MURDER_MYSTERY data 0
+scoreboard players set PLAYED_bingo data 0
 scoreboard players set PLAYED_LAVA_DANCERS data 0
 scoreboard players set PLAYED_MINIWALLS data 0
 scoreboard players set PLAYED_THE_MOUNTAIN data 0

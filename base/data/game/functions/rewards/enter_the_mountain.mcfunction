@@ -1,9 +1,9 @@
-datapack enable "file/escape_the_lab"
+datapack enable "file/the_mountain"
 execute in multi:mountain run tp @a 139 123 -36
 execute in multi:mountain run spawnpoint @a 139 123 -36
 title @a title {"text":"你现在的大厅：","color":"yellow"}
 title @a subtitle {"text":"The Mountain","color":"green","bold":true}
-advancement revoke @a only game:enter_escape_the_lab
+advancement revoke @a only game:enter_the_mountain
 scoreboard players set @a ready 0
 
 # Showing prompts

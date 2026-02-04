@@ -37,10 +37,10 @@ bossbar set maniac_builders name [{"text":"Current Minigame:","color":"yellow"},
 bossbar set maniac_builders color yellow
 bossbar set maniac_builders value 100
 bossbar set maniac_builders visible true
-bossbar set murder_mystery name [{"text":"Current Minigame:","color":"yellow"},{"text":" Bingo!","color":"gold","bold":true}]
-bossbar set murder_mystery color yellow
-bossbar set murder_mystery value 100
-bossbar set murder_mystery visible true
+bossbar set bingo name [{"text":"Current Minigame:","color":"yellow"},{"text":" Bingo!","color":"gold","bold":true}]
+bossbar set bingo color yellow
+bossbar set bingo value 100
+bossbar set bingo visible true
 bossbar set sand_runners name [{"text":"Current Minigame:","color":"yellow"},{"text":" Sand Runners","color":"gold","bold":true}]
 bossbar set sand_runners color yellow
 bossbar set sand_runners value 100

@@ -54,4 +54,4 @@ tellraw @a [{"text":"[","color":"white"},{"text":"☘","color":"yellow"},{"text"
 tellraw @a {"text":"CLICK TO TURN OFF!","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/stopsound @s master minecraft:bingo"},"hoverEvent":{"action":"show_text","value":"Click to stop background music!"}}
 
 # Event settings
-execute if score EVENT_STARTED data matches 1 run scoreboard players add PLAYED_MURDER_MYSTERY data 1
+execute if score EVENT_STARTED data matches 1 run scoreboard players add PLAYED_bingo data 1
