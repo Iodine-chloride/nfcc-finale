@@ -16,6 +16,9 @@ scoreboard players set PLAYED_THE_MOUNTAIN data 0
 function hall:vote/reset_score
 function hall:paintboard/reset
 
+# Reload Bossbar
+function hall:bossbar_load
+
 # Games played in total
 scoreboard players set PLAYED_GAMES data 0
 

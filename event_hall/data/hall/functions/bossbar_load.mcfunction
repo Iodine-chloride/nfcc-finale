@@ -1,5 +1,5 @@
 # Before events
-bossbar set welcome_event name [{"text":"Welcome to ","color":"gold","bold":true},{"text":"7th ","color":"light_purple","bold":true},{"text":"NFC Minigame Championship!"}]
+bossbar set welcome_event name [{"text":"Welcome to ","color":"gold","bold":true},{"text":"8th ","color":"light_purple","bold":true},{"text":"NFC Minigame Championship!"}]
 bossbar set welcome_event color yellow
 bossbar set welcome_event value 100
 bossbar set welcome_event visible true
