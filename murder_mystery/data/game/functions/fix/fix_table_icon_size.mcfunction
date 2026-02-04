@@ -1,0 +1,1 @@
+execute as @e[tag=bingo_table_entry] run data merge entity @s {transformation:{scale:[0.114514f,0.114514f,0.114514f]}}

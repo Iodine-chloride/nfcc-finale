@@ -1,0 +1,197 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": {
+				"min": 1.0,
+				"max": 1.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 16.0,
+								"max": 16.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:snowball"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1.0,
+				"max": 1.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 16.0,
+								"max": 16.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:arrow"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1.0,
+				"max": 1.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:bow"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1.0,
+				"max": 1.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:iron_chestplate"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1.0,
+				"max": 1.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:iron_leggings"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1.0,
+				"max": 1.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:stone_axe"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1.0,
+				"max": 1.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:iron_sword"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1.0,
+				"max": 1.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4.0,
+								"max": 4.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:lapis_lazuli"
+				}
+			]
+		}
+	]
+}
