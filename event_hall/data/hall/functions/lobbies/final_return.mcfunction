@@ -30,8 +30,10 @@ schedule function hall:trophy/titles/3 25s
 schedule function hall:trophy/titles/4 30s
 schedule function hall:trophy/titles/5 35s
 schedule function hall:trophy/titles/6 45s
-schedule function hall:trophy/titles/7 60s
-schedule function hall:trophy/titles/8 75s
+#schedule function hall:trophy/titles/7 60s
+schedule function hall:trophy/titles/8 60s
+schedule function hall:trophy/remove 65s
+schedule function hall:trophy/take_photo 65s
 
 function game:levels/levels_set
 function hall:fireworks/night

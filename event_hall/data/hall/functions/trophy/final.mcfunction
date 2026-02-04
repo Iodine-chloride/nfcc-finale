@@ -4,7 +4,7 @@ function hall:paintboard/fill/red
 
 stopsound @a master
 function hall:trophy/cookie_rain
-execute as @a at @s run playsound minecraft:endgame master @s ~ ~ ~ 0.8 1
+execute as @a at @s run playsound minecraft:endgame master @s ~ ~ ~ 0.5 1
 item replace entity @a armor.head with minecraft:golden_helmet{HideFlags:63,Enchantments:[{id:"binding_curse",lvl:1s}]}
 
 tellraw @a {"text":"========================================","bold":true,"color":"gold"}
