@@ -29,7 +29,7 @@ scoreboard objectives modify game_status displayname [{"text":"起床战争","bo
 scoreboard objectives add kill_count minecraft.custom:minecraft.player_kills
 scoreboard objectives setdisplay list kill_count
 scoreboard objectives add health health
-scoreboard objectives setdisplay belowName health
+scoreboard objectives setdisplay below_name health
 
 # Track players' deaths
 scoreboard objectives add death_tick minecraft.custom:minecraft.time_since_death

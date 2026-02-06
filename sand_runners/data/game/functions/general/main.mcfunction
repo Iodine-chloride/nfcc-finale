@@ -96,7 +96,7 @@ title @a[gamemode=adventure] actionbar ["",{"text":"存活玩家: ","color":"gol
 # Actions on death
 execute as @a[gamemode=adventure] at @s if block ~ ~ ~ minecraft:lava run playsound minecraft:entity.firework_rocket.twinkle master @a ~ ~ ~ 1 1
 execute as @a[gamemode=adventure] at @s if block ~ ~ ~ minecraft:lava run title @s title {"text":"🔥","color":"red"}
-execute as @a[gamemode=adventure] at @s if block ~ ~ ~ minecraft:lava run summon firework_rocket ~ ~2 ~ {LifeTime:20,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Trail:1,Colors:[I;16741120],FadeColors:[I;16771586]}],Flight:1}}}}
+execute as @a[gamemode=adventure] at @s if block ~ ~ ~ minecraft:lava run summon firework_rocket ~ ~2 ~ {LifeTime:20,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Trail:true,Colors:[I;16741120],FadeColors:[I;16771586]}],Flight:1}}}}
 execute as @a[gamemode=adventure] at @s if block ~ ~ ~ minecraft:lava run title @s subtitle {"text":"Better luck next time...","color":"yellow"}
 execute as @a[gamemode=adventure] at @s if block ~ ~ ~ minecraft:lava run scoreboard players add @a[gamemode=adventure] round_score_mb 45
 execute as @a[gamemode=adventure] at @s if block ~ ~ ~ minecraft:lava run scoreboard players remove @s round_score_mb 45

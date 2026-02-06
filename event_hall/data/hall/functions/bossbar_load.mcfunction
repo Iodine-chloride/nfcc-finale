@@ -1,3 +1,22 @@
+# Create bossbars
+bossbar add welcome_event [{"text":""}]
+bossbar add bedwars [{"text":""}]
+bossbar add quakecraft [{"text":""}]
+bossbar add survival_games [{"text":""}]
+bossbar add battle_box [{"text":""}]
+bossbar add sheep_hoarders [{"text":""}]
+bossbar add journeys [{"text":""}]
+bossbar add tnt_tags [{"text":""}]
+bossbar add maniac_builders [{"text":""}]
+bossbar add bingo [{"text":""}]
+bossbar add bridge_duels [{"text":""}]
+bossbar add subzero_race [{"text":""}]
+bossbar add miniwalls [{"text":""}]
+bossbar add sand_runners [{"text":""}]
+bossbar add the_mountain [{"text":""}]
+bossbar add murder_mystery [{"text":""}]
+bossbar add casual_pvp [{"text":""}]
+
 # Before events
 bossbar set welcome_event name [{"text":"Welcome to ","color":"gold","bold":true},{"text":"8th ","color":"light_purple","bold":true},{"text":"NFC Minigame Championship!"}]
 bossbar set welcome_event color yellow
@@ -41,14 +60,10 @@ bossbar set bingo name [{"text":"Current Minigame:","color":"yellow"},{"text":" 
 bossbar set bingo color yellow
 bossbar set bingo value 100
 bossbar set bingo visible true
-bossbar set sand_runners name [{"text":"Current Minigame:","color":"yellow"},{"text":" Sand Runners","color":"gold","bold":true}]
-bossbar set sand_runners color yellow
-bossbar set sand_runners value 100
-bossbar set sand_runners visible true
-# bossbar set casual_pvp name [{"text":"Current Minigame:","color":"yellow"},{"text":" The Final Duels","color":"gold","bold":true}]
-# bossbar set casual_pvp color yellow
-# bossbar set casual_pvp value 100
-# bossbar set casual_pvp visible true
+bossbar set bridge_duels name [{"text":"The Final Duel ","color":"gold"},{"text":"- ","color":"yellow"},{"text":"The Bridge","color":"red","bold":true}]
+bossbar set bridge_duels color red
+bossbar set bridge_duels value 100
+bossbar set bridge_duels visible true
 bossbar set subzero_race name [{"text":"Current Minigame:","color":"yellow"},{"text":" Subzero Race","color":"gold","bold":true}]
 bossbar set subzero_race color yellow
 bossbar set subzero_race value 100
